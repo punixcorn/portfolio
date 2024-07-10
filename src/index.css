@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+
+@layer base {
+    body {
+        @apply font-single-day;
+    }
+    html{
+        @apply font-single-day;
+
+    }
+    *{
+        @apply font-single-day;
+
+    }
+}
