@@ -1,6 +1,8 @@
 <h1 align="center">
-    (portfolio)[https://punixcorn.github.io/portfolio]
+    portfolio
 </h1>
+
+## [link to portfolio](https://punixcorn.github.io/portfolio)
 
 ## 🛠 set-up
 
