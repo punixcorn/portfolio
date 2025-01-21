@@ -36,9 +36,9 @@ function About() {
 							return <Cards icon={key.icon} title={key.title} />;
 						})
 						*/}
-                        <Card icon={MdWeb} title={'Web development'} />
+                        <Card icon={MdWeb} title={'Web/Mobile development'} />
                         <Card icon={SiLinux} title={'Linux/Unix operating system'} />
-                        <Card icon={CiMicrochip} title={'Embedded Systems'} extraStyle={'hover:animate-pulse'} />
+                        <Card icon={CiMicrochip} title={'Systems Programming'} extraStyle={'hover:animate-pulse'} />
                         <Card icon={FcEngineering} title={'Reverse Engineering'} extraStyle={'hover:animate-spin'} />
                     </div>
                 </div>

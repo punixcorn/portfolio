@@ -7,6 +7,27 @@ export const projects = [
         link: 'https://github.com/punixcorn/email-analysis',
     },
     {
+        title: 'Spyhuntrs',
+        desc: 'Rust Vulnerability Scanning Tool ',
+        techStack: 'Rust',
+        open: 'NULL',
+        link: 'https://github.com/punixcorn/spyhuntrs',
+    },
+    {
+        title: 'gitalias',
+        desc: 'An implementation of git using ligit',
+        techStack: 'C++, Cmake, make',
+        open: 'NULL',
+        link: 'https://github.com/punixcorn/gitalias-libgit',
+    },
+    {
+        title: 'portscanner',
+        desc: 'A port scanner in c++',
+        techStack: 'C++,C++/C buildsystems',
+        open: 'NULL',
+        link: 'https://github.com/punixcorn/portscanner',
+    },
+    {
         title: 'C++ Webserver',
         desc: 'A webserver in C++ which implements HTTP requests',
         techStack: 'C++,C++/C buildsystems',
@@ -50,7 +71,7 @@ export const InterestedAreas = [
     },
     {
         id: 1,
-        title: 'Embedded Systems',
+        title: 'Systems programming',
         link: '',
     },
     {
@@ -66,6 +87,14 @@ export const InterestedAreas = [
 ];
 
 export const spotlightProjects = [
+    {
+        title: 'Spyhuntrs',
+        desc: 'A rust vulnerability scanner',
+        techStack: 'Rust',
+        open: '',
+        link: 'https://github.com/punixcorn/spyhuntrs',
+        image: require('../assets/spyhuntrs.png'),
+    },
     {
         title: 'no libc',
         desc: 'An mini implementation of libc',
