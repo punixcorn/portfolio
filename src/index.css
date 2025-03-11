@@ -7,13 +7,14 @@
 @layer base {
     body {
         @apply font-single-day;
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
-    html{
+    html {
         @apply font-single-day;
-
+        overflow-x: hidden; /* Prevent horizontal scroll */
     }
-    *{
+    * {
         @apply font-single-day;
-
+        box-sizing: border-box; /* Prevent elements from expanding beyond their container */
     }
 }
