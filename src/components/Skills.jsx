@@ -14,7 +14,7 @@ import {
 
 function Skills() {
 	return (
-		<div id="skills" className="w-full h-screen text-rosePine-text">
+		<div id="skills" className="w-full min-h-screen text-rosePine-text">
 			{/* section header */}
 			<div className="max-w-[1000px] justify-center mx-auto px-4 w-full h-full flex flex-col">
 				<div>

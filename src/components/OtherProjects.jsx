@@ -9,7 +9,8 @@ function OtherProjects() {
 			id="Otherprojects"
 			className="w-full md:h-screen mx-auto pt-[100px] max-w-[1000px] min-h-[50vh]"
 		>
-			<div className="max-w-[1000px] justify-center mx-auto px-4 w-full h-full flex flex-col">
+			<div className="max-w-[1000px] mx-auto w-full px-4 sm:px-0 flex flex-col items-center justify-center">
+				{/* <div className="max-w-[1000px] justify-center mx-auto px-4 w-full h-full flex flex-col"> */}
 				<div className="flex pb-[42px] w-full">
 					<span className="text-rosePine-pine text-5xl font-bold">
 						Other Projects
@@ -17,17 +18,22 @@ function OtherProjects() {
 				</div>
 
 				<div>
-					<ul className="grid grid-cols-3 auto-cols-min gap-2 project-grid">
+					<ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mx-auto">
 						{projects.map((key) => (
 							<li
 								className="projects-card relative cursor-default flex flex-col h-full
                                         py-8 px-7 bg-rosePine-overlay rounded-2xl hover:bg-rosePine-highlightMed hover:translate-y-[-7px]"
 							>
-								<div className="-mt-[20px] flex py-5 px-0 justify-between !border-b-0">
+								<div className="-mt-[20px] flex justify-between !border-b-0">
 									<div className="text-rosePine-foam">
-										<MdFolderOpen style={{ fontSize: 35 }}></MdFolderOpen>
+										<MdFolderOpen
+											style={{ fontSize: 35 }}
+										></MdFolderOpen>
 									</div>
-									<Icons githubLink={key.link} openLink={key.open ?? null} />
+									<Icons
+										githubLink={key.link}
+										openLink={key.open ?? null}
+									/>
 								</div>
 
 								<div className="text-rosePine-text  text-3xl font-bold">
@@ -71,3 +77,4 @@ function Icons(props) {
 	);
 }
 export default OtherProjects;
+/* <ul className="grid grid-cols-3 auto-cols-min gap-2 project-grid">*/
